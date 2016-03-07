@@ -1,11 +1,19 @@
 Teamcity Docker
 ===============
 
-Teamcity - build management and continuous integration server from JetBrains.
+This is a Teamcity build management and continuous integration server from JetBrains.
 
-Install:
+[https://www.jetbrains.com/teamcity/](https://www.jetbrains.com/teamcity/)
+
+##  Install:
 
 ``` console
 docker pull lvitaly/teamcity
-docker run -d -P lvitaly/teamcity
+```
+
+
+## Run example:
+ 
+``` console
+docker run -d --name teamcity -P lvitaly/teamcity
 ```
